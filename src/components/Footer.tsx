@@ -79,7 +79,7 @@ const Footer = () => {
               © 2025 nit_connect Pro. All rights reserved.
             </div>
             <div className="flex items-center space-x-1">
-              <span>Crafted with</span>
+              <span>Crafted=</span>
               <Network className="w-4 h-4 text-blue-400 animate-pulse" />
               <span>by</span>
               <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">
