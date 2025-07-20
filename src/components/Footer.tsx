@@ -71,15 +71,19 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        
-        <div className="border-t border-white/10 mt-12 pt-8 text-center">
-          <p className="text-muted-foreground">
-            © 2024 nit_connect Pro. All rights reserved.
-          </p>  
-        <div className="border-t border-white/10 mt-12 pt-8 text-center">  
-          <p className="text-muted-foreground">  
-            © Entertained by MB 18 Solutions.
-          </p>
+            <div className="border-t border-white/5 bg-slate-950/50">
+        <div className="max-w-7xl mx-auto px-6 py-6">
+          <div className="flex flex-col md:flex-row items-center justify-between text-sm text-slate-400">
+            <div className="mb-4 md:mb-0">
+              © 2025 nit_connect Pro. All rights reserved.
+            </div>
+            <div className="flex items-center space-x-1">
+              <span>Crafted with</span>
+              <Network className="w-4 h-4 text-blue-400 animate-pulse" />
+              <span>by</span>
+              <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">
+                MB 18 Solutions
+              </a>
         </div>
       </div>
     </footer>
