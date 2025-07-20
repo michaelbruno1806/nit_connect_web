@@ -39,10 +39,10 @@ const Header = () => {
 
         <div className="flex items-center space-x-5">
           <Button variant="outline" className="btn-enhanced hidden sm:flex border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground px-6 py-2">
-            <span className="relative z-10">Get Quote</span>
+            <span className="relative z-10">Contact Us</span>
           </Button>
           <Button className="btn-enhanced bg-gradient-primary hover:opacity-90 glow-primary px-6 py-2">
-            <span className="relative z-10">Start Free Trial</span>
+            <span className="relative z-10">Request Demo</span>
           </Button>
         </div>
       </div>
