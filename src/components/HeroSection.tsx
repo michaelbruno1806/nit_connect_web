@@ -45,7 +45,7 @@ const HeroSection = () => {
 
         <div className="slide-in-view flex flex-col sm:flex-row gap-6 justify-center mb-16" style={{ animationDelay: '0.4s' }}>
           <Button size="lg" className="btn-enhanced bg-gradient-primary hover:opacity-90 glow-primary text-lg px-10 py-5 shadow-2xl">
-            <span className="relative z-10">Start Your Trial</span>
+            <span className="relative z-10">Start Your Journey Now</span>
           </Button>
           <Button variant="outline" size="lg" className="btn-enhanced border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground text-lg px-10 py-5 glow-hover">
             <span className="relative z-10">View Solutions</span>
