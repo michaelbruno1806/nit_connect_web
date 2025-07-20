@@ -1,7 +1,7 @@
 const Footer = () => {
   const footerSections = [
     {
-      title: "nit_connect Pro",
+      title: "nit_connect",
       content: "Leading provider of enterprise network solutions, connecting businesses worldwide with reliable, high-performance infrastructure.",
       isDescription: true
     },
@@ -75,6 +75,7 @@ const Footer = () => {
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
           <p className="text-muted-foreground">
             © 2024 nit_connect Pro. All rights reserved. | Built with enterprise-grade reliability.
+            © Entertained by MB 18 Solutions.
           </p>
         </div>
       </div>
