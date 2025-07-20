@@ -74,7 +74,10 @@ const Footer = () => {
         
         <div className="border-t border-white/10 mt-12 pt-8 text-center">
           <p className="text-muted-foreground">
-            © 2024 nit_connect Pro. All rights reserved. | Built with enterprise-grade reliability.
+            © 2024 nit_connect Pro. All rights reserved.
+          </p>  
+        <div className="border-t border-white/10 mt-12 pt-8 text-center">  
+          <p className="text-muted-foreground">  
             © Entertained by MB 18 Solutions.
           </p>
         </div>
