@@ -14,35 +14,35 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${
+    <header className={`fixed w-full top-0 z-50 transition-all duration-500 ${
       isScrolled 
-        ? 'backdrop-blur-xl bg-background/95 shadow-2xl border-b border-white/10' 
-        : 'backdrop-blur-md bg-background/90'
+        ? 'backdrop-blur-xl bg-background/95 shadow-2xl border-b border-primary/20' 
+        : 'backdrop-blur-md bg-background/80'
     }`}>
-      <div className="max-w-7xl mx-auto px-6 flex justify-between items-center h-16">
-        <div className="gradient-text text-2xl font-bold cursor-pointer hover:scale-105 transition-transform">
+      <div className="max-w-7xl mx-auto px-6 flex justify-between items-center h-20">
+        <div className="gradient-text-alt text-3xl font-bold cursor-pointer hover:scale-110 transition-all duration-300 hover:animate-pulse">
           nit_connect Pro
         </div>
         
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-10">
           {['Solutions', 'Services', 'Support', 'About', 'Contact'].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="text-muted-foreground hover:text-primary transition-colors relative group py-2"
+              className="text-muted-foreground hover:text-primary transition-all duration-300 relative group py-3 text-lg font-medium hover:scale-105"
             >
               {item}
-              <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full" />
+              <span className="absolute bottom-0 left-0 w-0 h-1 bg-gradient-primary transition-all duration-500 group-hover:w-full rounded-full" />
             </a>
           ))}
         </nav>
 
-        <div className="flex items-center space-x-4">
-          <Button variant="outline" className="hidden sm:flex border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground">
-            Get Quote
+        <div className="flex items-center space-x-5">
+          <Button variant="outline" className="btn-enhanced hidden sm:flex border-primary/50 text-primary hover:bg-primary hover:text-primary-foreground px-6 py-2">
+            <span className="relative z-10">Get Quote</span>
           </Button>
-          <Button className="bg-gradient-primary hover:opacity-90 transition-opacity glow-primary">
-            Start Free Trial
+          <Button className="btn-enhanced bg-gradient-primary hover:opacity-90 glow-primary px-6 py-2">
+            <span className="relative z-10">Start Free Trial</span>
           </Button>
         </div>
       </div>

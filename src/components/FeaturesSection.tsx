@@ -43,23 +43,24 @@ const FeaturesSection = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="slide-in-view text-3xl md:text-5xl font-bold mb-6">
-            Why Choose <span className="gradient-text">nit_connect Pro</span>?
+        <div className="text-center mb-20">
+          <h2 className="slide-in-view text-4xl md:text-6xl font-bold mb-8">
+            Why Choose <span className="gradient-text-alt">nit_connect Pro</span>?
           </h2>
-          <p className="slide-in-view text-lg text-muted-foreground max-w-3xl mx-auto" style={{ animationDelay: '0.2s' }}>
-            Powerful network solutions trusted by over 10,000+ businesses worldwide
+          <p className="slide-in-view text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed" style={{ animationDelay: '0.2s' }}>
+            Powerful network solutions trusted by over <span className="gradient-text font-semibold">10,000+ businesses</span> worldwide
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Enhanced grid with staggered animations */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {features.map((feature, index) => (
             <FeatureCard
               key={feature.title}
               icon={feature.icon}
               title={feature.title}
               description={feature.description}
-              delay={0.1 * index}
+              delay={0.15 * index}
             />
           ))}
         </div>
