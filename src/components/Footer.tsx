@@ -1,3 +1,6 @@
+import React from 'react';
+import { Network } from 'lucide-react';
+
 const Footer = () => {
   const footerSections = [
     {
@@ -79,7 +82,7 @@ const Footer = () => {
               © 2025 nit_connect Pro. All rights reserved.
             </div>
             <div className="flex items-center space-x-1">
-              <span>Crafted=</span>
+              <span>Crafted</span>
               <Network className="w-4 h-4 text-blue-400 animate-pulse" />
               <span>by</span>
               <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">
