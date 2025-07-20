@@ -71,8 +71,9 @@ const Footer = () => {
             </div>
           ))}
         </div>
-            <div className="border-t border-white/5 bg-slate-950/50">
-        <div className="max-w-7xl mx-auto px-6 py-6">
+
+        {/* Copyright Section */}
+        <div className="mt-12 pt-8 border-t border-white/5">
           <div className="flex flex-col md:flex-row items-center justify-between text-sm text-slate-400">
             <div className="mb-4 md:mb-0">
               © 2025 nit_connect Pro. All rights reserved.
@@ -84,6 +85,8 @@ const Footer = () => {
               <a href="#" className="text-blue-400 hover:text-blue-300 font-medium transition-colors">
                 MB 18 Solutions
               </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
